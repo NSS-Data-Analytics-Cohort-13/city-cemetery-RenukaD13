@@ -36,3 +36,4 @@ b. Drill down into any months that stand out to investigate. What do you find?
     b.  Find the Mean() age for those classified as "Child" and then again for those classified as "Adult".  
     c.  Create a burial_date column using the DATE() function to combine the burial year, month, and day. What do you notice when you apply this function to your data?   
     d.  Find the last infant to be buried in 1864. Do this by first finding the maximum date that an infant was buried using the MAXIFS function. Then use FILTER to find the infants that were buried on that date. You'll need to apply multiple conditions in your filter. This can be accomplished by multiplying the desired conditions. See https://www.spreadsheetclass.com/excel-filter-function/ for more information about applying complex conditions inside the filter function.
+=MAXIFS(I:I,Q:Q,CONCAT("*",3746,"*")
